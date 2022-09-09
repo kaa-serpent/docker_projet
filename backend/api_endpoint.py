@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 
 @app.route("/name", methods=["POST"])
-def setName():
+def set_name():
     if request.method == 'POST':
         posted_data = request.get_json()
         data = posted_data['data']
