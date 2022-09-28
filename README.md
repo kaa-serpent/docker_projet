@@ -1,6 +1,6 @@
 # docker_projet
 
-- Backend en sql
+- Backend en python
 - Frontend en streamlit
 - dockerisé
 
